@@ -22,7 +22,7 @@ steps:
   inputs:
     command: Build an image
     containerregistrytype: Container Registry
-    dockerRegistryEndpoint: DockerHub
+    dockerRegistryEndpoint: https://cloud.docker.com/repository/docker/echogp/aspnetapp
     dockerFile: Dockerfile
     imageName: $(imageName)
     imageNamesPath: 
