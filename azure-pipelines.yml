@@ -22,7 +22,7 @@ steps:
   inputs:
     command: Build an image
     containerregistrytype: Container Registry
-    dockerRegistryEndpoint: https://index.docker.io/v1/
+    #dockerRegistryEndpoint: https://index.docker.io/v1/
     dockerFile: Dockerfile
     imageName: $(imageName)
     imageNamesPath: 
